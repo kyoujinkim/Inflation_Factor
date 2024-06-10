@@ -130,11 +130,7 @@ def get_buss_detail(Dart_df, enddate):
 
     return temp_df
 
-api_key = '97a20740d8e5f3ad251b0f7fa5c1ee0f9ef29114'
-#my api key(naver) = '97a20740d8e5f3ad251b0f7fa5c1ee0f9ef29114'
-#my api key = '16166465c8bcc04467fedc3f5ff3226d01baebf9'
-#young hoon's api key1 = '63be3029d2da89a10a14778bfbb3cddfd0e10bf3'
-#young hoon's api key2 = '609aa14de6f4e7f8934053574dc3e73d71c0aa9e'
+api_key = 'dd'
 dart = OpenDartReader(api_key)
 
 port_list = pd.read_csv('./data/K200const.csv', index_col=0)
